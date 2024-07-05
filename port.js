@@ -11,4 +11,3 @@ function updateTime() {
 // Call updateTime initially and set interval to update every minute (if needed)
 updateTime();
 setInterval(updateTime, 60000); // Update every minute
-
