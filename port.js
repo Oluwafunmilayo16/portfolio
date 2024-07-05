@@ -12,14 +12,7 @@ function updateTime() {
 updateTime();
 setInterval(updateTime, 60000); // Update every minute
 
-// Wait for the DOM to be fully loaded
-document.addEventListener("DOMContentLoaded", function() {
-    // Get the element to animate
-    var slackTrackElement = document.getElementById("slackTrackElement");
-  
-    // Add a class to start the animation
-    setTimeout(function() {
-      slackTrackElement.classList.add("active");
+
     }, 100); // Delay to start the animation, adjust as needed
   });
 
