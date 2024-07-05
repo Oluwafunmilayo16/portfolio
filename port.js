@@ -12,7 +12,3 @@ function updateTime() {
 updateTime();
 setInterval(updateTime, 60000); // Update every minute
 
-
-    }, 100); // Delay to start the animation, adjust as needed
-  });
-
