@@ -15,8 +15,9 @@ body {
 /* Header styles */
 header {
     background-color: blueviolet;
-    color: #fff;
+    color: #333;
     padding: 10px 0;
+    padding-left: 20px
 }
 
 header .container {
